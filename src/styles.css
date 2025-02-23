@@ -8,9 +8,18 @@ body {
   margin: auto;
 }
 
+.kit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
 .kit-display {
-  height: 300px;
   width: 250px;
-  margin: auto;
-  border: 2px solid black;
+  height: 300px;
+}
+
+.controls, .upload-section {
+  margin-bottom: 20px;
 }
