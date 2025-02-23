@@ -1,6 +1,6 @@
 import React from "react";
 
-const KitDisplay = ({ kitType, sport, color, pattern, logos, playerName, playerNumber, view }) => {
+const KitDisplay = ({ kitType, sport, color, logos, playerName, playerNumber, view }) => {
   return (
     <div className="kit-display" style={{ backgroundColor: color }}>
       <h2>{view} View - {kitType} ({sport})</h2>
